@@ -1,0 +1,1 @@
+This example demonstrates a potential issue when working with mutable variables and functions in F#. The `add` function calculates the sum of two integers, but the subsequent changes to `x` and `y` are not immediately reflected when `add` is called again.  The solution explains how to handle mutable variables more effectively within function calls.
